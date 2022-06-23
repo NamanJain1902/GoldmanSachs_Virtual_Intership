@@ -1,3 +1,10 @@
+# How it begins🧐?
+
+Read the following blog post. This will give you idea how rockyou password breach incident lead to series of incidents that made life of hackers easy to guess the password even if it's masked with cryptographic algorithm such as MD5.
+https://arstechnica.com/information-technology/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/
+
+
+
 # Instructions
 
 Download rockyou.txt wordlist using 
@@ -13,3 +20,6 @@ Run follwoing on the command line.
 * sudo apt install hashcat
 
 * hashcat -a 0 -m 0 hashes.txt rockyou.txt
+
+
+If you don't want to download hashcat use https://crackstation.net/. Crackstation has their own wordlist, wheneven you enter passphrase it matches with a list deciphered passphrases and returns corresponding password from db.
